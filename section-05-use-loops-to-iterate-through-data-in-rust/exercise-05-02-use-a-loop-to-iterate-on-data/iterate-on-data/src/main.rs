@@ -65,46 +65,23 @@ fn main() {
     // Declare a car as mutable "Car" struct
     let mut car: Car;
 
-    // Order 6 cars
-    // - Increment "order" after each request
-    // - Add each order <K, V> pair to "orders" hash map
-    // - Call println! to show order details from the hash map
-            
-    // Initialize order variable
-    let mut order = 1;
-        
-    // Car order #1: Used, Hard top
-    car = car_factory(order, 1000);
-    orders.insert(order, car);
-    println!("Car order {}: {:?}", order, orders.get(&order));
-    
-    // Car order #2: Used, Convertible
-    order = order + 1;
-    car = car_factory(order, 2000);
-    orders.insert(order, car);
-    println!("Car order {}: {:?}", order, orders.get(&order));
+    // Start with zero miles
+    let mut miles = 0;
 
-    // Car order #3: New, Hard top
-    order = order + 1;
-    car = car_factory(order, 0);
-    orders.insert(order, car);
-    println!("Car order {}: {:?}", order, orders.get(&order));
+    for order in 1..7 {
 
-    // Car order #4: New, Convertible
-    order = order + 1;
-    car = car_factory(order, 0);
-    orders.insert(order, car);
-    println!("Car order {}: {:?}", order, orders.get(&order));
+        // Call car_factory to fulfil order
+        // Add order <K, V> pair to "orders" hash map
+        // Call println! to show order details from the hash map        
+        car = car_factory(order, miles);
+        orders.insert(order, car);
+        println!("Car order {}: {:?}", order, orders.get(&order));
 
-    // Car order #5: Used, Hard top
-    order = order + 1;
-    car = car_factory(order, 3000);
-    orders.insert(order, car);
-    println!("Car order {}: {:?}", order, orders.get(&order));
-
-    // Car order #6: Used, Hard top
-    order = order + 1;
-    car = car_factory(order, 4000);
-    orders.insert(order, car);
-    println!("Car order {}: {:?}", order, orders.get(&order));
+        // Reset miles for order variety
+        if miles == 2100 {
+            miles = 0;
+        } else {
+            miles = miles + 700;
+        }
+    }
 }
