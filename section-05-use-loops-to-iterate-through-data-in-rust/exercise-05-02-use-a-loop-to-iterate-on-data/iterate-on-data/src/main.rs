@@ -30,7 +30,7 @@ fn car_factory(order: i32, miles: u32) -> Car {
     // Valid colour = 1, 2, 3, or 4
     // If colour > 4, reduce colour to valid index
     let mut colour = order as usize;
-    if colour > 4 {        
+    while colour > 4 {        
         // colour = 5 --> index 1, 6 --> 2, 7 --> 3, 8 --> 4
         colour = colour - 4;
     }
@@ -68,7 +68,7 @@ fn main() {
     // Start with zero miles
     let mut miles = 0;
 
-    for order in 1..7 {
+    for order in 1..12 {
 
         // Call car_factory to fulfil order
         // Add order <K, V> pair to "orders" hash map
