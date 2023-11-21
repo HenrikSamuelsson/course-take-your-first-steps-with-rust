@@ -1,2 +1,3 @@
-# course-take-your-first-steps-with-rust
-Notes on the learning path "Take your first steps with Rust" provided by Microsoft.
+# Course - Take your first steps with Rust
+
+Notes and exercises related to the course [Take your first steps with Rust](https://learn.microsoft.com/en-us/training/paths/rust-first-steps/), provided by Microsoft.
