@@ -1,5 +1,9 @@
 # 8.1 Implement generic types and traits - Introduction
 
+> **trait**  
+> A particular characteristic that can produce a particular type of behaviour  
+> (Cambridge Dictionary)
+
 Rust supports *polymorphism* through mechanisms known as *traits* and *generics* which allows for having code that can handle values of different type, even types not existing at the time of writing the code.
 
 Concepts presented in this section are:
