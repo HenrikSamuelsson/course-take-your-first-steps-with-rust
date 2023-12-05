@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "section-08-implement-generic-types-and-traits\\section-08-07-exercise-implement-an-iterator\\items\\Cargo.toml"
+    ]
+}
