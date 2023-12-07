@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Larger Rust programs can be split into subparts such as modules, files and packages.
+Larger Rust programs can be split into subparts such as modules, files, and packages.
 
 ### Learning objectives
 
