@@ -1,5 +1,7 @@
 [workspace]
 
+edition = "2021"
+
 members = [
     "section-08-implement-generic-types-and-traits//section-08-07-exercise-implement-an-iterator//items",
     "section-09-explore-modules-packages-and-third-party-crates//unit-06-exercise-visibility",
