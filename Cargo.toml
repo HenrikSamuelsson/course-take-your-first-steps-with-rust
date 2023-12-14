@@ -7,4 +7,5 @@ members = [
     "section-09-explore-modules-packages-and-third-party-crates//unit-06-exercise-visibility",
     "section-09-explore-modules-packages-and-third-party-crates//unit-07-exercise-modules",
     "section-10//unit-03//exercise-write-unit-tests",
+    "section-10//unit-05//exercise-write-documentation-tests"
 ]
