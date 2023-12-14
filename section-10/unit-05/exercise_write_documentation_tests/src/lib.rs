@@ -29,15 +29,10 @@ pub fn div(a: i32, b: i32) -> i32 {
 ///
 /// # Example #1: 9 - 2 == 7
 ///
-/// ```
-/// TODO: Write this doctest!
-/// ```
+
 ///
 /// # Example #2: 6 - 9 == -3
 ///
-/// ```
-/// TODO: Write this doctest!
-/// ```
 pub fn sub(a: i32, b: i32) -> i32 {
     a - b
 }
