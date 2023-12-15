@@ -33,7 +33,10 @@ pub fn div(a: i32, b: i32) -> i32 {
 ///
 /// # Example #1: 9 - 2 == 7
 ///
-
+/// ```
+/// let result = exercise_write_documentation_tests::sub(9, 2);
+/// assert_eq!(result, 7);
+/// ```
 ///
 /// # Example #2: 6 - 9 == -3
 ///
