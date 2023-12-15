@@ -39,6 +39,11 @@ pub fn div(a: i32, b: i32) -> i32 {
 /// ```
 ///
 /// # Example #2: 6 - 9 == -3
+/// 
+/// ```
+/// let result = exercise_write_documentation_tests::sub(6, 9);
+/// assert_eq!(result, -3)
+/// ```
 ///
 pub fn sub(a: i32, b: i32) -> i32 {
     a - b
