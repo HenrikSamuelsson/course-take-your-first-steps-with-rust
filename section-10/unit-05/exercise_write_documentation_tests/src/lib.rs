@@ -17,7 +17,11 @@
 /// # Panics
 ///
 /// The function panics if the second argument is zero.
-///
+/// 
+/// ```rust, should_panic
+/// // panics on division by zero
+/// exercise_write_documentation_tests::div(5, 0);
+/// ```
 pub fn div(a: i32, b: i32) -> i32 {
     if b == 0 {
         panic!("Divide-by-zero error");
